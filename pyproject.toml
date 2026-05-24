@@ -1,0 +1,13 @@
+[project]
+name = "security-ai"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.104.1",
+    "psycopg[binary]>=3.3.4",
+    "pymupdf>=1.27.2.3",
+    "python-dotenv>=1.2.2",
+    "tiktoken>=0.13.0",
+    "voyageai>=0.3.7",
+]
